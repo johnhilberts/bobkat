@@ -1,0 +1,35 @@
+﻿@model BobKatRegistry.Models.RegistryItem
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>RegistryItem</legend>
+
+    <div class="display-label">Name</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">Url</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Url)
+    </div>
+
+    <div class="display-label">PaymentUrl</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PaymentUrl)
+    </div>
+
+    <div class="display-label">Price</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Price)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.RegistryItemId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

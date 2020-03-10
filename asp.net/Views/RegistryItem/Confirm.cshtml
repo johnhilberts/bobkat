@@ -1,0 +1,36 @@
+﻿@model BobKatRegistry.Models.RegistryItem
+
+@{
+    ViewBag.Title = "Confirm Registry Item Commitment";
+}
+
+<script src="@Url.Content("~/Scripts/confirm.js")" type="text/javascript"></script>
+<h2>Please enter your first name and last name below to continue</h2>
+
+@using (Html.BeginForm())
+{
+    <fieldset>
+        <div class="inputRow">
+            <div class="labelContainer">
+                <label for="first">First Name</label>
+            </div>
+            <div class="inputContainer">
+                <input type="text" name="first" id="first" required />
+            </div>
+        </div>
+        <div class="inputRow">
+            <div class="labelContainer">
+                <label for="last">Last Name</label>
+            </div>
+            <div class="inputContainer">
+                <input type="text" name="last" id="last" required />
+            </div>
+        </div>
+        <div class="inputRow">
+            <input type="submit" id="confirm" onclick="return BobKatRegistry.confirmation.confirm()" />
+            <span class="successLabel"></span>
+            <span class="failureLabel"></span>
+            @Html.HiddenFor(model => model.RegistryItemId)
+        </div>
+    </fieldset>
+}

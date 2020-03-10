@@ -1,0 +1,161 @@
+@{
+    ViewBag.PageTitle = "The Photos - First Look";
+}
+@section AddToHead{
+    <link href="@Url.Content("~/Content/theme/supersized.shutter.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/css/supersized.css")" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="@Url.Content("~/Content/js/jquery.easing.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/js/supersized.3.2.7.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/theme/supersized.shutter.min.js")"></script>
+    
+<script type="text/javascript">
+    jQuery(function ($) {
+        $.supersized({
+    	    slide_interval: 3000,
+    	    transition: 1, fit_always: 1,
+    	    transition_speed: 700,
+    	    slide_links: 'blank',
+    	    image_path: '@Url.Content("~/Content/img/thephotos/gallery-framework/")',
+    	    slides: [
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0625.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0625 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0626.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0626 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0629.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0629 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0633.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0633 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0635.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0635 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0636-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0636-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0636.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0636 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0641.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0641 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0644.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0644 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0645-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0645-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0645.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0645 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0647.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0647 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0650.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0650 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0652-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0652-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0653.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0653 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0654.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0654 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0661-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0661-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0661.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0661 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0665.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0665 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0669-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0669-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0669.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0669 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0671.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0671 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0674.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0674 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0677.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0677 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0678-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0678-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0678.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0678 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0681.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0681 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0688.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0688 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0690.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0690 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0695-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0695-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0704.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0704 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0705-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0705-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0713.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0713 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0720.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0720 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0727.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0727 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0732.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0732 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0737.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0737 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0746.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0746 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0758.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0758 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0761.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0761 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0765.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0765 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0773.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0773 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0778.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0778 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0786.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0786 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0788.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0788 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0791.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0791 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0795.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0795 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0797.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0797 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0798.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0798 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0812.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0812 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0815.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0815 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0818.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0818 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0822.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0822 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0826.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0826 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0830.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0830 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0835.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0835 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0838.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0838 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0839.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0839 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0840.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0840 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0846.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0846 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0849.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0849 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0851.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0851 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0855.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0855 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0859.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0859 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0867.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0867 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0868.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0868 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0881.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0881 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0886.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0886 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0894.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0894 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0895-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0895-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0897.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0897 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0901.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0901 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0909.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0909 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0912.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0912 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0914.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0914 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0916-crop.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0916-crop (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0918-crop.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0918-crop (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0920-crop.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0920-crop (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0923.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0923 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0925.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0925 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0929.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0929 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0932-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0932-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0932.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0932 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0936.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0936 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0945.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0945 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0947.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/firstlook/J_K-0947 (Custom).jpg")' }
+				    ]
+        });
+    });
+</script>
+
+}
+
+
+<div id="nav-back">
+    <a href="@Url.Content("~/Photos")">
+        <img src="@Url.Content("~/Content/img/thephotos/backtophotos.png")" />
+    </a>
+</div>
+
+
+<!--Thumbnail Navigation-->
+<div id="prevthumb"></div>
+<div id="nextthumb"></div>
+	
+<!--Arrow Navigation-->
+<a id="prevslide" class="load-item"></a>
+<a id="nextslide" class="load-item"></a>
+	
+<div id="thumb-tray" class="load-item">
+	<div id="thumb-back"></div>
+	<div id="thumb-forward"></div>
+</div>
+	
+<!--Time Bar-->
+<div id="progress-back" class="load-item">
+	<div id="progress-bar"></div>
+</div>
+	
+<!--Control Bar-->
+<div id="controls-wrapper" class="load-item">
+	<div id="controls">
+			
+		<a id="play-button"><img alt="pause" id="pauseplay" src="@Url.Content("~/Content/img/thephotos/gallery-framework/pause.png")"/></a>
+		
+		<!--Slide counter-->
+		<div id="slidecounter">
+			<span class="slidenumber"></span> / <span class="totalslides"></span>
+		</div>
+			
+		<!--Slide captions displayed here-->
+		<div id="slidecaption"></div>
+			
+		<!--Thumb Tray button-->
+		<a id="tray-button"><img alt="more/less" id="tray-arrow" src="@Url.Content("~/Content/img/thephotos/gallery-framework/button-tray-up.png")"/></a>
+			
+		<!--Navigation-->
+		<ul id="slide-list"></ul>
+			
+	</div>
+</div>

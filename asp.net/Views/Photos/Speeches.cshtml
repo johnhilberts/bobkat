@@ -1,0 +1,138 @@
+@{
+    ViewBag.PageTitle = "The Photos - Speeches";
+}
+@section AddToHead{
+    <link href="@Url.Content("~/Content/theme/supersized.shutter.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/css/supersized.css")" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="@Url.Content("~/Content/js/jquery.easing.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/js/supersized.3.2.7.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/theme/supersized.shutter.min.js")"></script>
+    
+<script type="text/javascript">
+    jQuery(function ($) {
+        $.supersized({
+    	    slide_interval: 3000,
+    	    transition: 1, 
+    	    fit_always: 1,
+    	    transition_speed: 700,
+    	    slide_links: 'blank',
+    	    image_path: '@Url.Content("~/Content/img/thephotos/gallery-framework/")',
+    	    slides: [
+
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2682-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2682-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2686.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2686 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2689.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2689 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2690-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2690-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2707.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2707 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2709.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2709 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2711.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2711 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2714.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2714 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2715.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2715 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2716.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2716 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2718.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2718 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2720.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2720 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2721.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2721 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2725.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2725 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2726.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2726 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2738.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2738 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2740.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2740 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2741.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2741 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2745.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2745 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2750.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2750 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2751.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2751 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2752.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2752 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2762.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2762 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2768.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2768 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2775.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2775 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2781.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2781 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2782.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2782 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2785.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2785 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2787.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2787 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2793.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2793 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2796.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2796 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2799.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2799 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2802.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2802 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2803-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2803-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2808.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2808 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2820.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2820 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2823-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2823-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2830.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2830 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2844-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2844-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2849.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2849 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2851.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2851 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2854-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2854-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2856.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2856 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2860-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2860-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2862.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2862 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2867.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2867 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2869.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2869 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2870.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2870 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2875-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2875-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2880.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2880 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2882.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2882 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2886-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2886-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2891.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2891 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2895.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2895 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2900.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2900 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2904.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2904 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2905.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2905 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2907.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2907 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2911.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2911 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2915.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2915 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/reception/J_K-2916-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/reception/J_K-2916-B_W (Custom).jpg")' }
+				    ]
+        });
+    });
+</script>
+
+}
+
+
+<div id="nav-back">
+    <a href="@Url.Content("~/Photos")">
+        <img src="@Url.Content("~/Content/img/thephotos/backtophotos.png")" />
+    </a>
+</div>
+
+
+<!--Thumbnail Navigation-->
+<div id="prevthumb"></div>
+<div id="nextthumb"></div>
+	
+<!--Arrow Navigation-->
+<a id="prevslide" class="load-item"></a>
+<a id="nextslide" class="load-item"></a>
+	
+<div id="thumb-tray" class="load-item">
+	<div id="thumb-back"></div>
+	<div id="thumb-forward"></div>
+</div>
+	
+<!--Time Bar-->
+<div id="progress-back" class="load-item">
+	<div id="progress-bar"></div>
+</div>
+	
+<!--Control Bar-->
+<div id="controls-wrapper" class="load-item">
+	<div id="controls">
+			
+		<a id="play-button"><img alt="pause" id="pauseplay" src="@Url.Content("~/Content/img/thephotos/gallery-framework/pause.png")"/></a>
+		
+		<!--Slide counter-->
+		<div id="slidecounter">
+			<span class="slidenumber"></span> / <span class="totalslides"></span>
+		</div>
+			
+		<!--Slide captions displayed here-->
+		<div id="slidecaption"></div>
+			
+		<!--Thumb Tray button-->
+		<a id="tray-button"><img alt="more/less" id="tray-arrow" src="@Url.Content("~/Content/img/thephotos/gallery-framework/button-tray-up.png")"/></a>
+			
+		<!--Navigation-->
+		<ul id="slide-list"></ul>
+			
+	</div>
+</div>

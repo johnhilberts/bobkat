@@ -1,0 +1,93 @@
+@{
+    ViewBag.PageTitle = "The Photos - Getting Ready";
+}
+@section AddToHead{
+    <link href="@Url.Content("~/Content/theme/supersized.shutter.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/css/supersized.css")" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="@Url.Content("~/Content/js/jquery.easing.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/js/supersized.3.2.7.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/theme/supersized.shutter.min.js")"></script>
+    
+<script type="text/javascript">
+    jQuery(function ($) {
+        $.supersized({
+    	    slide_interval: 3000,
+    	    transition: 1, 
+            fit_always: 1,
+    	    transition_speed: 700,
+    	    slide_links: 'blank',
+    	    image_path: '@Url.Content("~/Content/img/thephotos/gallery-framework/")',
+    	    slides: [
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0191-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0191-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0194.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0194 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0195.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0195 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0197.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0197 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0207.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0207 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0212.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0212 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0223.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0223 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0227.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0227 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0235.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0235 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0237.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0237 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0259.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0259 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0262.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0262 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0267.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0267 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0269.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0269 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0278.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0278 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0287.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/gettingready/J_K-0287 (Custom).jpg")' },
+                    
+				    ]
+        });
+    });
+</script>
+
+}
+
+
+<div id="nav-back">
+    <a href="@Url.Content("~/Photos")">
+        <img src="@Url.Content("~/Content/img/thephotos/backtophotos.png")" />
+    </a>
+</div>
+
+
+<!--Thumbnail Navigation-->
+<div id="prevthumb"></div>
+<div id="nextthumb"></div>
+	
+<!--Arrow Navigation-->
+<a id="prevslide" class="load-item"></a>
+<a id="nextslide" class="load-item"></a>
+	
+<div id="thumb-tray" class="load-item">
+	<div id="thumb-back"></div>
+	<div id="thumb-forward"></div>
+</div>
+	
+<!--Time Bar-->
+<div id="progress-back" class="load-item">
+	<div id="progress-bar"></div>
+</div>
+	
+<!--Control Bar-->
+<div id="controls-wrapper" class="load-item">
+	<div id="controls">
+			
+		<a id="play-button"><img alt="pause" id="pauseplay" src="@Url.Content("~/Content/img/thephotos/gallery-framework/pause.png")"/></a>
+		
+		<!--Slide counter-->
+		<div id="slidecounter">
+			<span class="slidenumber"></span> / <span class="totalslides"></span>
+		</div>
+			
+		<!--Slide captions displayed here-->
+		<div id="slidecaption"></div>
+			
+		<!--Thumb Tray button-->
+		<a id="tray-button"><img alt="more/less" id="tray-arrow" src="@Url.Content("~/Content/img/thephotos/gallery-framework/button-tray-up.png")"/></a>
+			
+		<!--Navigation-->
+		<ul id="slide-list"></ul>
+			
+	</div>
+</div>

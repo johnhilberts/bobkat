@@ -1,0 +1,171 @@
+/* ==========================================================================
+   RESETS
+========================================================================== */
+html,button,input,select,textarea{color:#222;}
+body{font-size:1em;line-height:1.4;}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}
+img{vertical-align:middle;}
+fieldset{border:0;margin:0;padding:0;}
+textarea{resize:vertical;}
+::-moz-selection,::selection{background:#b3d4fc;text-shadow:none;}
+a { color: #FFFFFF; text-decoration: none;}
+a:hover { text-decoration: underline; }
+
+
+
+/* ==========================================================================
+   Fonts
+========================================================================== */
+@font-face {
+    font-family: 'CaslonItalic';
+    src: url('fonts/acaslonpro-italic-webfont.eot');
+    src: url('fonts/acaslonpro-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/acaslonpro-italic-webfont.woff') format('woff'),
+         url('fonts/acaslonpro-italic-webfont.ttf') format('truetype'),
+         url('fonts/acaslonpro-italic-webfont.svg#adobe_caslon_proitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CaslonBold';
+    src: url('fonts/acaslonpro-semibold-webfont.eot');
+    src: url('fonts/acaslonpro-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/acaslonpro-semibold-webfont.woff') format('woff'),
+         url('fonts/acaslonpro-semibold-webfont.ttf') format('truetype'),
+         url('fonts/acaslonpro-semibold-webfont.svg#adobe_caslon_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'CaslonRegular';
+    src: url('fonts/acaslonpro-regular-webfont.eot');
+    src: url('fonts/acaslonpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/acaslonpro-regular-webfont.woff') format('woff'),
+         url('fonts/acaslonpro-regular-webfont.ttf') format('truetype'),
+         url('fonts/acaslonpro-regular-webfont.svg#adobe_caslon_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* ==========================================================================
+   Page styles
+========================================================================== */
+
+body { background: url('../img/bg.jpg') #252525; color: #FFFFFF; font-family: 'CaslonBold', Helvetica, Arial, sans-serif; padding-bottom: 60px;}
+#mainContainer { width: 600px; margin: 0 auto; }
+header { width: 100%; background: url('../img/header.png') no-repeat transparent; height: 270px; }
+#pageTitleContainer { margin: 0 auto; width: 345px; height: 70px; text-align: center; }
+div.leftFlower, div.rightFlower { float: left; margin: 20px 20px 0; height: 50px; width: 40px; } 
+div.leftFlower { background: url('../img/leftflower.png') no-repeat; } 
+div.rightFlower { background: url('../img/rightflower.png') no-repeat; } 
+#pageTitle { float: left; }
+h2 { font-family: 'CaslonItalic'; font-size: 24px; margin: 0; line-height: 24px; }
+h1 { font-family: 'CaslonBold'; font-size: 50px; margin: 0; line-height: 50px; }
+
+
+nav ul li { float: left; padding: 0 15px; border-right: 1px solid #FFFFFF; }
+body#home footer { margin: 75px 0; }
+footer { margin: 0; }
+footer div.hr { float: left; width: 187px; margin-top: 17px; height: 1px; border-top:1px solid #FFF; }
+#footerLink { float: left; margin: 0 15px; font-family: CaslonItalic; font-size: 25px; }
+#footerFlowers { display: block; margin: 0px auto; }
+
+
+#bestDayEver { width: 110%; height: 550px; background: url('../img/bestdayever.png') no-repeat transparent; margin-left: -20px; }
+#bestDayLocation { width: 390px; margin: 35px auto 50px; text-align: center; font-family: 'CaslonItalic'; font-size: 33px;}
+#postcodeContainer div.hr { width: 146px; float: left; margin-top: 18px;height: 1px;border-top: 1px solid #FFF; }
+#postcode { width: 80px; margin: 0 8px; float: left; }
+
+
+div.storySection {  padding: 0 20px; text-align: center; width: 100%; }
+div.leftImage { width: 138px; text-align: center; float:left; }
+div.lastLeftImage { margin-top: 40px; } 
+div.storyText { width: 280px; margin-top: 25px; float: left; font-size: 19px; } 
+div.lastStoryText { margin-top: 0; } 
+div.rightImage { width: 138px; margin-top: 65px; text-align: center; float: left; }
+div.finalStory { margin: 30px 0 20px 0; }
+
+#theday #pageTitleContainer { width: 277px; }
+#thePlan { margin-bottom: 35px; height: 25px; }
+#thePlan div.hr { float: left; width: 234px; height:1px; border-top:1px solid #FFF; margin-top: 15px; }
+#thePlan div { float: left; font-size: 25px; margin: 0 6px; }
+#theDayContainer { height: 558px; width: 610px; }
+#marganImage { float: left; width: 382px; } 
+#order { float: left; margin-left: 27px; width: 201px; }
+.time { font-family: CaslonItalic; font-size: 25px; line-height: 21px;}
+.timeframe { font-size: 15px; }
+.activity { margin: 0 0 30px; font-family: CaslonBold; font-size: 20px; }
+
+
+#thevenue #pageTitleContainer { width: 348px; }
+#map { margin-left: -11px; }
+#heldAt { font-family: CaslonItalic; font-size: 33px; margin-bottom: 9px; }
+#venueAddress { font-family: CaslonRegular;  font-size: 30px; line-height: 35px; margin-bottom: 60px; }
+#venueAddress a { text-decoration: underline; }
+
+
+
+#theregistry #pageTitleContainer { width: 435px; }
+#ifYouLoveUs { font-size: 15px; text-align: center; font-family: CaslonItalic; }
+#explanation { font-size: 25px; text-align: center; font-family: CaslonRegular; line-height: 30px; margin-bottom: 65px; }
+
+
+#registryItems { margin-bottom: 70px; }
+.registryItem { float: left;width: 300px; font-size: 19px; font-family: CaslonRegular; margin-bottom: 70px; }
+.itemName { font-family: CaslonBold; text-transform: uppercase; width:x280px;}
+.itemImage { margin-bottom:20px; }
+.itemUrl a, .itemPayUrl a { text-decoration: underline; }
+.purchaseButton { border: 2px solid #656565; background: #3b3a3a; padding: 7px 18px 0px; margin-top: 17px; width: 135px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; cursor: pointer; }
+.whoHasThis { width: 200px; margin-top: 13px; font-family: CaslonItalic, Arial, Helvetica; text-align: center; }
+.confirmPurchase { display: none; }
+.confirmPurchase input { width: 130px;color: #656565; text-align: right; }
+.initial { margin: 20px 0 10px; width: 30px !important; float: right; padding-right: 12px; }
+.lastName { margin-bottom: 10px; }
+.confirmButton, .cancelButton { display: block;text-align: right; margin: 2px 0 0 10px; }
+.cancelButton { margin-bottom: 15px; }
+.getThis { display: block; }
+.message { display: none; width: 140px; font-family: CaslonItalic; font-size: 17px; text-align: center; }
+
+
+/* Oppa PHOTO STYLES */
+body#ThePhotos div#pageTitleContainer{ width: 389px; } 
+.photoDivider { clear: both; margin: 50px 0 35px 0; height: 25px; }
+.photoDivider div.hr { float: left; width: 234px; height:1px; border-top:1px solid #FFF; margin-top: 15px; }
+.photoDivider div { float: left; font-size: 25px; margin: 0 6px;}
+.beforeDay div.hr { width: 204px; }
+.photoShoots div.hr { width: 212px; }
+.ceremony div.hr { width: 228px; }
+.reception div.hr { width: 229px; }
+a#AllPhotos { margin: 60px auto 30px auto; text-align: center; display:block; background: url("../img/thephotos/downloadAll.png") no-repeat scroll 0 0 transparent;height: 79px; width: 405px; }
+a#AllPhotos:hover { background-position: 0 -79px; }
+div.photoGalleryOption { margin: 0 auto;height: 60px;width: 200px; text-align: center;float: left;}
+div.galleryIcon { background: no-repeat url('../img/thephotos/icons.png');width: 28px;height: 45px;margin: 0 auto;}
+body#ThePhotos div.photoGalleryOption a { margin: 0 auto;display: block; }
+div.dayBeforeIcon{ background-position: -60px 0; }
+div.gettingReadyGuysIcon{ background-position: -5px 0; width: 35px; }
+div.gettingReadyGalsIcon{ background-position: -170px 0;width: 30px; }
+div.firstLookIcon{     background-position: -210px 0; width: 35px; }
+div.photoShootIcon { background-position: -111px 0; width: 33px; }
+div.preceremonyIcons { background-position: -395px 0; width: 37px; }
+div.ceremonyIcons { background-position: -253px 0; width: 30px; }
+div.canapesIcon { background-position: -445px 0; }
+div.photoBoothIcon { background-position: -352px 0; width: 30px; }
+div.speechesIcon { background-position: -482px 0; width: 32px; }
+div.dinnerIcon { background-position: -567px 0; }
+div.partyIcon { background-position: -290px 0; width: 36px; }
+
+
+/* ==========================================================================
+   Helper classes
+========================================================================== */
+.hidden{display:none!important;visibility:hidden;}
+.clearfix:before,.clearfix:after{content:" ";display:table;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+.noborder { border: 0; }
+.topBuffer { margin-top:30px; }
+.italic { font-family: CaslonItalic; }

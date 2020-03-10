@@ -1,0 +1,153 @@
+@{
+    ViewBag.PageTitle = "ThePhotos - Ceremony";
+}
+@section AddToHead{
+    <link href="@Url.Content("~/Content/theme/supersized.shutter.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/css/supersized.css")" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="@Url.Content("~/Content/js/jquery.easing.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/js/supersized.3.2.7.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/theme/supersized.shutter.min.js")"></script>
+    
+<script type="text/javascript">
+    jQuery(function ($) {
+        $.supersized({
+    	    slide_interval: 3000,
+    	    transition: 1, fit_always: 1,
+    	    transition_speed: 700,
+    	    slide_links: 'blank',
+    	    image_path: '@Url.Content("~/Content/img/thephotos/gallery-framework/")',
+    	    slides: [
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1697.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1697 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1698.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1698 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1701.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1701 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1709.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1709 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1719.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1719 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1725.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1725 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1731.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1731 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1733.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1733 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1742.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1742 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1744.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1744 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1749.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1749 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1754.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1754 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1758-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1758-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1763.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1763 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1766-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1766-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1774.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1774 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1783.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1783 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1788.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1788 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1790-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1790-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1794.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1794 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1796.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1796 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1807.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1807 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1815.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1815 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1818.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1818 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1819.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1819 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1821.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1821 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1840.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1840 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1853.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1853 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1861.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1861 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1862.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1862 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1867.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1867 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1872.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1872 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1878.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1878 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1887.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1887 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1891.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1891 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1895.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1895 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1905.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1905 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1918.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1918 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1928-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1928-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1930.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1930 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1939-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1939-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1949.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1949 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1957.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1957 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1959.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1959 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1964.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1964 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1973.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1973 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1979.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1979 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1981.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1981 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1985.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1985 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1988-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1988-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1988.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1988 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1993.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1993 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1996.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1996 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1999.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-1999 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2005.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2005 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2012.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2012 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2015.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2015 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2018.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2018 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2021.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2021 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2025.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2025 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2028.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2028 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2030.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2030 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2033.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2033 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2037.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2037 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2041.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2041 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2044.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2044 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2045-B_W.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2045-B_W (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2046.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2046 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2051.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2051 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2053.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2053 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2057.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2057 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2059.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2059 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2060.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2060 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2061.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2061 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2064.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2064 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2065.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2065 (Custom).jpg")' },
+                    { image: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2068.jpg")', thumb: '@Url.Content("~/Content/img/thephotos/ceremony/J_K-2068 (Custom).jpg")' },
+
+				    ]
+        });
+    });
+</script>
+
+}
+
+
+<div id="nav-back">
+    <a href="@Url.Content("~/Photos")">
+        <img src="@Url.Content("~/Content/img/thephotos/backtophotos.png")" />
+    </a>
+</div>
+
+
+<!--Thumbnail Navigation-->
+<div id="prevthumb"></div>
+<div id="nextthumb"></div>
+	
+<!--Arrow Navigation-->
+<a id="prevslide" class="load-item"></a>
+<a id="nextslide" class="load-item"></a>
+	
+<div id="thumb-tray" class="load-item">
+	<div id="thumb-back"></div>
+	<div id="thumb-forward"></div>
+</div>
+	
+<!--Time Bar-->
+<div id="progress-back" class="load-item">
+	<div id="progress-bar"></div>
+</div>
+	
+<!--Control Bar-->
+<div id="controls-wrapper" class="load-item">
+	<div id="controls">
+			
+		<a id="play-button"><img alt="pause" id="pauseplay" src="@Url.Content("~/Content/img/thephotos/gallery-framework/pause.png")"/></a>
+		
+		<!--Slide counter-->
+		<div id="slidecounter">
+			<span class="slidenumber"></span> / <span class="totalslides"></span>
+		</div>
+			
+		<!--Slide captions displayed here-->
+		<div id="slidecaption"></div>
+			
+		<!--Thumb Tray button-->
+		<a id="tray-button"><img alt="more/less" id="tray-arrow" src="@Url.Content("~/Content/img/thephotos/gallery-framework/button-tray-up.png")"/></a>
+			
+		<!--Navigation-->
+		<ul id="slide-list"></ul>
+			
+	</div>
+</div>
